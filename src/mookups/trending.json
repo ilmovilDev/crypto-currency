@@ -1,0 +1,107 @@
+[
+    {
+        "item": {
+            "id": "pepe",
+            "coin_id": 29850,
+            "name": "Pepe",
+            "symbol": "PEPE",
+            "market_cap_rank": 87,
+            "thumb": "https://assets.coingecko.com/coins/images/29850/thumb/pepe-token.jpeg?1682922725",
+            "small": "https://assets.coingecko.com/coins/images/29850/small/pepe-token.jpeg?1682922725",
+            "large": "https://assets.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1682922725",
+            "slug": "pepe",
+            "price_btc": 4.3893225134375384e-11,
+            "score": 0
+        }
+    },
+    {
+        "item": {
+            "id": "sui",
+            "coin_id": 26375,
+            "name": "Sui",
+            "symbol": "SUI",
+            "market_cap_rank": 89,
+            "thumb": "https://assets.coingecko.com/coins/images/26375/thumb/sui_asset.jpeg?1683114182",
+            "small": "https://assets.coingecko.com/coins/images/26375/small/sui_asset.jpeg?1683114182",
+            "large": "https://assets.coingecko.com/coins/images/26375/large/sui_asset.jpeg?1683114182",
+            "slug": "sui",
+            "price_btc": 0.00003442410005809772,
+            "score": 1
+        }
+    },
+    {
+        "item": {
+            "id": "ripple",
+            "coin_id": 44,
+            "name": "XRP",
+            "symbol": "XRP",
+            "market_cap_rank": 6,
+            "thumb": "https://assets.coingecko.com/coins/images/44/thumb/xrp-symbol-white-128.png?1605778731",
+            "small": "https://assets.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png?1605778731",
+            "large": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1605778731",
+            "slug": "xrp",
+            "price_btc": 0.000019964796515429098,
+            "score": 2
+        }
+    },
+    {
+        "item": {
+            "id": "bitcoin",
+            "coin_id": 1,
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "market_cap_rank": 1,
+            "thumb": "https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579",
+            "small": "https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579",
+            "large": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
+            "slug": "bitcoin",
+            "price_btc": 1,
+            "score": 3
+        }
+    },
+    {
+        "item": {
+            "id": "ovr",
+            "coin_id": 13429,
+            "name": "Ovr",
+            "symbol": "OVR",
+            "market_cap_rank": 600,
+            "thumb": "https://assets.coingecko.com/coins/images/13429/thumb/ovr_logo.png?1608518911",
+            "small": "https://assets.coingecko.com/coins/images/13429/small/ovr_logo.png?1608518911",
+            "large": "https://assets.coingecko.com/coins/images/13429/large/ovr_logo.png?1608518911",
+            "slug": "ovr",
+            "price_btc": 0.000020094532124254427,
+            "score": 4
+        }
+    },
+    {
+        "item": {
+            "id": "edu-coin",
+            "coin_id": 29948,
+            "name": "Open Campus",
+            "symbol": "EDU",
+            "market_cap_rank": 176,
+            "thumb": "https://assets.coingecko.com/coins/images/29948/thumb/EDU_Logo.png?1682327357",
+            "small": "https://assets.coingecko.com/coins/images/29948/small/EDU_Logo.png?1682327357",
+            "large": "https://assets.coingecko.com/coins/images/29948/large/EDU_Logo.png?1682327357",
+            "slug": "open-campus",
+            "price_btc": 0.00004209917199662382,
+            "score": 5
+        }
+    },
+    {
+        "item": {
+            "id": "render-token",
+            "coin_id": 11636,
+            "name": "Render",
+            "symbol": "RNDR",
+            "market_cap_rank": 48,
+            "thumb": "https://assets.coingecko.com/coins/images/11636/thumb/rndr.png?1638840934",
+            "small": "https://assets.coingecko.com/coins/images/11636/small/rndr.png?1638840934",
+            "large": "https://assets.coingecko.com/coins/images/11636/large/rndr.png?1638840934",
+            "slug": "render-token",
+            "price_btc": 0.00010084128023794451,
+            "score": 6
+        }
+    }
+]

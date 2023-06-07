@@ -1,0 +1,29 @@
+.table-body a {
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.table-body a:hover {
+    background-color: #e9ecef;
+}
+
+/* Estilos generales para el scrollbar */
+::-webkit-scrollbar {
+    width: 8px; /* Anchura del scrollbar */
+  }
+  
+  /* Track (fondo del scrollbar) */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color de fondo */
+  }
+  
+  /* Thumb (manija del scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #999; /* Color del thumb */
+    border-radius: 50px;
+  }
+  
+  /* Al pasar el cursor sobre el thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #22223b; /* Color del thumb al pasar el cursor */
+  }
