@@ -8,14 +8,12 @@ export const Header = () => {
   return (
     <AppBar>
       <Toolbar>
-        <IconButton>
-          <CurrencyBitcoinIcon
-            fontSize="large"
-            sx={{
-              color: 'secondary.main'
-            }}
-          />
-        </IconButton>
+        <CurrencyBitcoinIcon
+          fontSize="large"
+          sx={{
+            color: 'secondary.main'
+          }}
+        />
         <Typography
           sx={{
             letterSpacing: 2.5,
@@ -32,6 +30,7 @@ export const Header = () => {
           marginLeft='auto'
         >
           <a
+            aria-label="Go to linkedin developer profile"
             href='https://www.linkedin.com/in/luis-carrasco-320586270/'
             target='_blank'
           >
@@ -43,6 +42,7 @@ export const Header = () => {
             />
           </a>
           <a
+            aria-label="Go to github developer profile"
             href='https://github.com/ilmovilDev'
             target='_blank'
           >

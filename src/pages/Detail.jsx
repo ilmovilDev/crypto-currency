@@ -30,9 +30,11 @@ export const Detail = () => {
           xs={12}
         >
           <Button
+            aria-label="return to home page"
             variant="text" startIcon={<KeyboardReturnRoundedIcon />}
             component={Link}
             to='home'
+            sx={{ fontWeight: 600 }}
           >
             return
           </Button>

@@ -5,6 +5,8 @@ import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import { useAxios } from "../hooks/useAxios";
 import { HasError } from "./HasError";
 
+//import markets from '../mookups/markets.json'
+
 export const MarketTable = () => {
 
     const { response, loading, hasError } = useAxios('/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false&locale=en');
@@ -21,7 +23,7 @@ export const MarketTable = () => {
             sx={{ width: '100%', overflow: 'hidden' }}
         >
             <TableContainer
-                sx={{ maxHeight: '65vh', paddingX: 1 }}
+                sx={{ maxHeight: '67vh', paddingX: 1 }}
             >
                 <Table
                     stickyHeader
@@ -31,9 +33,12 @@ export const MarketTable = () => {
                         sx={{
                             'th': {
                                 fontWeight: 600,
-                            }
+                                fontSize: '1.05rem',
+                                bgcolor: 'primary.main',
+                                color: 'secondary.main',
+                            },
                         }}
-                    >
+                        >
                         <TableRow>
                             <TableCell>#</TableCell>
                             <TableCell align="left">Coin</TableCell>
@@ -44,6 +49,7 @@ export const MarketTable = () => {
                             <TableCell align="right">Mkt Cap</TableCell>
                         </TableRow>
                     </TableHead>
+
                     <TableBody
                         className="table-body"
                     >
@@ -54,6 +60,7 @@ export const MarketTable = () => {
 
                             return (
                                 <TableRow
+                                    aria-label={`Read more about ${ name }`}
                                     component={Link}
                                     to={`/coin/${id}`}
                                     key={id}
@@ -73,9 +80,9 @@ export const MarketTable = () => {
                                         }}
                                     >
                                         <img
-                                            style={{ width: '2rem', height: '2rem' }}
+                                            style={{ width: '22px', height: '22px' }}
                                             src={image}
-                                            alt={`Icon ${name}`}
+                                            alt={`image of crypto currency ${name}`}
                                         />
                                         <Typography
                                             variant="body2"
@@ -94,18 +101,21 @@ export const MarketTable = () => {
 
                                     <TableCell // Price
                                         align="right"
+                                        sx={{ fontWeight: 600 }}
                                     >
                                         {`$ ${current_price.toFixed(2)}`}
                                     </TableCell>
 
                                     <TableCell // low_24h
                                         align="right"
+                                        sx={{ fontWeight: 600 }}
                                     >
                                         {`$ ${low_24h.toFixed(2)}`}
                                     </TableCell>
 
                                     <TableCell // high_24h
                                         align="right"
+                                        sx={{ fontWeight: 600 }}
                                     >
                                         {`$ ${high_24h.toFixed(2)}`}
                                     </TableCell>
@@ -117,6 +127,7 @@ export const MarketTable = () => {
                                             alignItems: 'center',
                                             gap: 0.75,
                                             color: priceChangeColor,
+                                            fontWeight: 600
                                         }}
                                     >
                                         {price_change_percentage_24h.toFixed(2)}
@@ -129,6 +140,7 @@ export const MarketTable = () => {
 
                                     <TableCell // Mtk Cap
                                         align="right"
+                                        sx={{ fontWeight: 600 }}
                                     >
                                         {`$ ${market_cap.toLocaleString()}`}
                                     </TableCell>

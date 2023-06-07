@@ -42,7 +42,8 @@ export const TrendingCard = () => {
         const { id, name, symbol, small } = coin.item;
 
         return (
-          <Grid 
+          <Grid
+            aria-label={`Read more about ${ name }`}
             key={id} 
             component={Link} 
             to={`/coin/${id}`} 
@@ -54,7 +55,7 @@ export const TrendingCard = () => {
           >
             <CardMedia
               component="img"
-              sx={{ width: 40, height: 40, borderRadius: '50%' }}
+              sx={{ width: 36, height: 36, borderRadius: '50%' }}
               image={small}
               alt={`icon ${ name }`}
             />
